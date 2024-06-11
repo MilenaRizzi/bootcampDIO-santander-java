@@ -4,31 +4,7 @@ Resolução do desafio Modelagem e Diagramação de um Componente iPhone
 1. Criar um diagrama UML que represente as funcionalidades descritas acima.
 2. Implementar as classes e interfaces correspondentes em Java (Opcional).
 
+[![](https://mermaid.ink/img/pako:eNqNksFqwzAMhl8l-JSx9gVCCZTtssNKWcdOuai2kggcKyh22Vr67nParE0WBjMG2_Jv6ZOsk9JsUGVKW-i6Z4JKoClcEgdta3aYLJd58oatsAme5TV0pMHOFOsWBG3N72ixZEeaZ5INHLACw_LiPIpDX7ir5hJ6HiM5Xa_7sVpR_6gEjXl-Nz961iDpw8jSQuh-mbrIpIkdDJ7TnRdyVdJcToPyPKWZ5_MnTjIKZamKwQf_LjQoPCYBj87glI6icwJ5YhEk_uBjeifqlzHVrIT_gsJP2pNsoSJ3yz2InYAZulZowwdY7yGdUgewdIQfFyO-ONVCxTQbIBO76IJTKF9jg4XK4tZgCcH6QhXuHKUQP3j35bTKvARcKOFQ1SorwXbxFFoTSzR04c2KhvquGPq0X87fIFXbqw?type=png)](https://mermaid.live/edit#pako:eNqNksFqwzAMhl8l-JSx9gVCCZTtssNKWcdOuai2kggcKyh22Vr67nParE0WBjMG2_Jv6ZOsk9JsUGVKW-i6Z4JKoClcEgdta3aYLJd58oatsAme5TV0pMHOFOsWBG3N72ixZEeaZ5INHLACw_LiPIpDX7ir5hJ6HiM5Xa_7sVpR_6gEjXl-Nz961iDpw8jSQuh-mbrIpIkdDJ7TnRdyVdJcToPyPKWZ5_MnTjIKZamKwQf_LjQoPCYBj87glI6icwJ5YhEk_uBjeifqlzHVrIT_gsJP2pNsoSJ3yz2InYAZulZowwdY7yGdUgewdIQfFyO-ONVCxTQbIBO76IJTKF9jg4XK4tZgCcH6QhXuHKUQP3j35bTKvARcKOFQ1SorwXbxFFoTSzR04c2KhvquGPq0X87fIFXbqw) 
 
-classDiagram
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
-
-    class ReprodutorMusical {
-        <<interface>>
-        +tocar()
-        +pausar()
-        +selecionarMusica(String musica)
-    }
-
-    class AparelhoTelefonico {
-        <<interface>> 
-        +ligar(String numero)
-        +atender()
-        +iniciarCorreioVoz()
-    }
-    
-    class NavegadorInternet {
-        <<interface>> 
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
-    }
  
  
